@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+  color: maroon;
+}
+
+.content {
+  @apply p-8 lg:w-2/3 mx-auto w-full
+}
+
+.title {
+  @apply text-center font-bold text-4xl uppercase
+}
+
+.todos {
+  @apply mt-8
+}
+
+.todo {
+  @apply rounded-xl my-2 sm:h-24 p-4 text-white
+}
+
+.todo__content {
+  @apply flex justify-between items-center flex-col sm:flex-row
+}
+
+.todo__title {
+  @apply text-2xl font-bold capitalize
+}
+
+.todo__dueDate {
+  @apply mx-4
+}
+
+.todo__description {
+  @apply text-sm my-2
+}
+
+.todo__tags {
+  @apply flex text-sm mt-2 sm:mt-0
+}
+
+.todo__tag, .todo__details {
+  @apply italic mx-1
+}
+
+.todo__details:hover {
+  text-decoration: underline;
+}
+
+.todo__settings {
+  @apply flex sm:justify-end mx-0 text-sm justify-center
+}
+
+.todo__details {
+  @apply flex justify-end mx-2 text-sm
+}
+
+.settings {
+  @apply my-8
+}
+
+.settings__row {
+  @apply flex gap-4 my-2 flex-col sm:flex-row
+}
+
+.button {
+  @apply text-white sm:w-1/6 h-10 bg-amber-500 rounded-xl cursor-pointer w-full
+}
+
+.search {
+  @apply w-full h-10 px-4 rounded-xl outline-0
+}

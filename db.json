@@ -1,0 +1,57 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Nakoupit potraviny1",
+      "description": "Jít do supermarketu a nakoupit všechny potřebné věci na týden.",
+      "tags": [
+        "nákup",
+        "potraviny"
+      ],
+      "dueDate": "2023-03-30",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Upravit kód",
+      "description": "Opravit chyby v kódu a přidat novou funkčnost aplikace",
+      "tags": [
+        "programování",
+        "nnn",
+        "bbb"
+      ],
+      "dueDate": "2023-04-05",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Napsat zprávu1",
+      "description": "Napsat e-mailovou zprávu a odeslat ji kolegům.",
+      "tags": [
+        "komunikace",
+        "práce"
+      ],
+      "dueDate": "2023-03-24",
+      "completed": true
+    },
+    {
+      "id": "5",
+      "title": "Připravit prezentaci",
+      "description": "Připravit prezentaci na zítřejší meeting.",
+      "tags": [
+        "práce",
+        "prezentace"
+      ],
+      "dueDate": "2023-07-20",
+      "completed": false
+    },
+    {
+      "dueDate": "2023-11-01",
+      "description": "",
+      "title": "cccc",
+      "tags": [],
+      "completed": false,
+      "id": "MWFqpyP"
+    }
+  ]
+}
